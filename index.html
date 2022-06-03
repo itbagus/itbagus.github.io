@@ -6,11 +6,11 @@
     	http://www.templatemo.com/tm-446-boxer
     	-->
 		<meta charset="utf-8">
-		<title>Boxer - Software Landing Page</title>
+		<title>Solusi masalah Excel secara daring (jarak jauh/remote)</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="">
-		<meta name="description" content="">
+		<meta name="keywords" content="excel, error, solusi, pivot table, warna, sel, rumus">
+		<meta name="description" content="Excel kamu error? Butuh bantuan? Temukan solusinya di sini. Kami senang sekali membantu via remote dengan WhatsApp dan Zoom.">
 
 		<!-- animate css -->
 		<link rel="stylesheet" href="css/animate.min.css">
@@ -23,6 +23,7 @@
 
 		<!-- custom css -->
 		<link rel="stylesheet" href="css/templatemo-style.css">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
 
 	</head>
 	<body>
@@ -202,20 +203,45 @@
 		<section id="download">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-						<h2 class="text-uppercase">Download Our Software</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-						<button class="btn btn-primary text-uppercase"><i class="fa fa-download"></i> Download</button>
-					</div>
-					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-						<img src="images/software-img.png" class="img-responsive" alt="feature img">
+					<div class="wow fadeInLeft" data-wow-delay="0.6s">
+                        <h2>Tanya jawab (FAQ)</h2>
+                        <button class="accordion">Tanya-tanya dulu boleh?</button>
+                        <div class="panel">
+                        <p>Tentu saja. Nomor WA saya 085-740-742-301. Boleh disimpan dengan nama Ahmad ITBAGUS.</p>
+                        </div>
+
+                        <button class="accordion">Kenapa pakai Zoom?</button>
+                        <div class="panel">
+                        <p>Zoom punya fitur remote control. Jadi, saya bisa bantu gerakin mouse kamu dari sini.</p>
+                        </div>
+
+                        <button class="accordion">Metode pembayarannya pakai apa, Kak?</button>
+                        <div class="panel">
+                        <p>Saat ini baru bisa menerima via transfer bank. Saya pakai BRI. Kalau beda bank, silakan pakai Flip agar lebih hemat.</p>
+                        </div>
+
+                        <button class="accordion">Saya nggak punya rekening bank. Ada solusi?</button>
+                        <div class="panel">
+                        <p>Kamu bisa datang ke agen BRILink terdekat. Bilang saja mau transfer. Kalau kamu punya dompet digital (Gopay, OVO, Dana, dll), bisa juga dipakai buat transfer ke rekening BRI.</p>
+                        </div>
+
+                        <button class="accordion">Bayarnya harus lunas dulu, atau gimana?</button>
+                        <div class="panel">
+                        <p>Minimal DP 50% dulu ya , Kak. Selanjutnya bisa saya proses.</p>
+                        </div>
+
+                        <button class="accordion">Bisa datang ke rumah/kantor, Kak?</button>
+                        <div class="panel">
+                        <p>Untuk yang on-site, saya hanya melayani area Pati dan sekitarnya.</p>
+                        </div>
+                        <a class="tombol" href="https://api.whatsapp.com/send/?phone=6285740742301&text=Halo+kak%21+Saya+butuh+bantuan+masalah+excel+nih"><i class="fa fa-whatsapp" style="font-size:20px;"></i> Oke, saya mau kontak ITBAGUS</a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- end download -->
 
-		<!-- start contact -->
+		<!-- start contact 
 		<section id="contact">
 			<div class="overlay">
 				<div class="container">
@@ -254,24 +280,39 @@
 				</div>
 			</div>
 		</section>
-		<!-- end contact -->
+		 end contact -->
 
 		<!-- start footer -->
 		<footer>
 			<div class="container">
 				<div class="row">
-					<p>Copyright © 2084 Your Company Name</p>
+					<p>Copyright © 2022 ITBAGUS</p>
 				</div>
 			</div>
 
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row">
 					<p>Distributed By <a href="http://themewagon.com" target="_blank">Themewagon</a></p>
 				</div>
-			</div>
+			</div> -->
 		</footer>
 		<!-- end footer -->
-        
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+            }
+            </script>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/wow.min.js"></script>
