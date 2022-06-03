@@ -34,7 +34,10 @@ h4
         font-weight: bold;
     }
 /* end h1 group */
-p { line-height: 1.6em; }
+p, li, button {
+    line-height: 1.6em; 
+    font-size: 17px;
+}
 /* img */
 img
     {
@@ -227,6 +230,10 @@ img
     {
         padding-top: 10px;
     }
+#feature li {
+    padding-top: 7px;
+}
+
 #feature span
     {
         float: left;
@@ -281,6 +288,7 @@ img
         padding-top: 12px;
         padding-bottom: 20px;
     }
+
 #pricing h3
     {
         padding-bottom: 30px;
@@ -348,6 +356,11 @@ img
 #pricing .pricing .btn:hover {
     background: #28a7e9;
     color: #fff;
+}
+
+#pricing a{
+    margin-bottom: 15px;
+
 }
 /* end pricing */
 
