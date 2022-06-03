@@ -97,7 +97,7 @@ img
     {
          width: 30px;
         height: 30px;
-        background-color: #28a7e9;
+        background-color: #005500;
          margin: 0 auto;
         -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
                 animation: sk-rotatePlane 1.2s infinite ease-in-out;
@@ -354,12 +354,15 @@ img
 /* start download */
 #download
     {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        background: #f8f8f8;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 #download h2
     {
         padding-bottom: 20px;
+        display: table;
+        margin: auto;
     }
 #download .btn
     {
@@ -495,7 +498,7 @@ footer
     border-bottom: 1px solid #ddd;
     border-radius: 0 0 20px 20px;
 }
-.masalah a:hover, .pricing a:hover {
+.masalah a:hover, .pricing a:hover, #download a:hover {
     background-color: #007000;
     text-decoration: none;
     color: white;
@@ -504,4 +507,47 @@ footer
     vertical-align: super;
     font-size: 0.4em;
     
+}
+/* faq */
+.accordion {
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /* font-size: 15px; */
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02c5';
+  color: #000;
+  font-size: 1.3em;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\02c4";
+}
+
+.panel {
+  padding: 0 14px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#download a {
+    display: table;
+    margin: auto;
 }
